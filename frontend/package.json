@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "http-server . -p 500"
+    "start": "http-server . -p 500",
+    "dev": "node --watch server.js"
   },
   "keywords": [],
   "author": "",
