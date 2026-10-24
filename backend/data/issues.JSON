@@ -4,7 +4,31 @@
     "title": "Unable to access Wi-Fi",
     "description": "Connection fails in the teaching lab.",
     "priority": "High",
-    "status": "Open",
+    "status": "Resolved",
     "createdAt": "2026-09-01T09:00:00.000Z"
+  },
+  {
+    "id": "b19c131a-21d4-41ea-9424-81d60f623637",
+    "title": "Printer unavailable",
+    "description": "The shared printer is not responding.",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-10-17T07:44:41.050Z"
+  },
+  {
+    "id": "52f96676-f9a7-459f-93c2-7ef2377454f6",
+    "title": "Printer unavailable",
+    "description": "hdvaghgfagufgug.",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-10-17T07:50:36.416Z"
+  },
+  {
+    "id": "27857ebb-b823-4a82-bc15-168a3193f294",
+    "title": "bfjhdskjv",
+    "description": "vsbsb",
+    "priority": "Medium",
+    "status": "Resolved",
+    "createdAt": "2026-10-23T21:53:55.924Z"
   }
 ]

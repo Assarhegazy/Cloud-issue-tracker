@@ -1,5 +1,6 @@
 require("dotenv").config({ quiet: true });
 const express = require("express");
+const cors = require("cors");
 const issueRoutes = require("./routes/issues");
 
 const app = express();
@@ -10,6 +11,14 @@ app.use((req, res, next) => {
   next();
 });
 
+const allowedOrigins = (process.env.CORS_ORIGINS || "http://localhost:3000")
+  .split(",")
+  .map((origin) => origin.trim());
+app.use(
+  cors({
+    origin: allowedOrigins,
+  }),
+);
 app.use(express.json());
 app.use("/api/issues", issueRoutes);
 
